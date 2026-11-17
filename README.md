@@ -236,8 +236,9 @@ v_R  = Base + Turn_Out;
 
 - **STM32F10x Standard Peripheral Library V3.5.0**、CMSIS Cortex-M3 内核与启动文件：STMicroelectronics。
 - **OLED 驱动与字库**：江协科技（jiangxiekeji.com），本项目在其基础上按自己的显示需求修改。
+- **MPU6050 与软件 I2C 驱动**：基于江协科技教程改写，补充了 200 Hz 采样率、DLPF 和 ±2000 °/s、±16 g 量程配置。
 - **MPU6050 寄存器定义**：参考江协科技 MPU6050 教程整理。
-- 主控制逻辑、编码器/电机/PWM/循迹/USART/VOFA+ 驱动与联调、PID 参数整定、PCB 设计均为本人完成。
+- 主控制逻辑、编码器/电机/PWM/循迹/USART/VOFA+ 的集成与调试、PID 参数整定、PCB 设计为本人完成；部分底层驱动参考江协科技例程。
 
 代码和报告仅供学习交流，第三方库版权归原作者所有。
 
