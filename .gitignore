@@ -1,0 +1,33 @@
+# Keil 编译输出（体积最大的部分，不需要上传）
+平衡车代码/Objects/
+平衡车代码/Listings/
+平衡车代码/DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.iex
+*.sct
+*.htm
+
+# Keil / 编辑器个人配置
+平衡车代码/Project.uvguix.*
+平衡车代码/Project.uvoptx
+平衡车代码/.vscode/
+*.uvguix.*
+
+# 操作系统 / 临时文件
+Thumbs.db
+desktop.ini
+.DS_Store
+*.bak
+*.tmp
+
+# 原始报告含姓名、学号等个人信息，仓库里只保留 docs/ 下的脱敏版
+/基于STM32的平衡寻迹小车汇报总结.pdf
